@@ -102,7 +102,6 @@ ColorBlue(){
 
 menu(){
 echo -ne "
-My First Menu
 $(ColorGreen '1)') Memory usage
 $(ColorGreen '2)') CPU load
 $(ColorGreen '3)') Number of TCP connections 
