@@ -8,7 +8,7 @@ server {
       server_name __DOMINIO;
       client_max_body_size 0;
       location / {
-        proxy_pass https://__IP__PUERTO;
+        proxy_pass http://__IP__PUERTO;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
